@@ -1,0 +1,9 @@
+provider:
+  name: faas
+  gateway: http://172.16.65.134:31112
+
+functions:
+  hello-go:
+    lang: go
+    handler: ./hello-go
+    image: kirilv/hello-go:latest
