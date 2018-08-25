@@ -1,10 +1,6 @@
 package function
 
-import (
-	"fmt"
-)
-
 // Handle a serverless request
 func Handle(req []byte) string {
-	return fmt.Sprintf("Bye, Go. You mentioned: %s", string(req))
+	return fm.Sprintf("Bye, Go. You mentioned: %s", string(req))
 }
